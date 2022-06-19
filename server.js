@@ -18,8 +18,8 @@ app.get('/isPrime/:number', function(req, res){
     res.status(200).send(primes.isPrime(req.params.number));    
 })
 
-app.get('/doubler/:number', function(req, res){
-  res.status(200).send(duplicator.doubler(req.params.number));    
+app.get('/devidednumber/:number', function(req, res){
+  res.status(200).send(duplicator.devidednumber(req.params.number));    
 })
 
 exports.stop = function(){

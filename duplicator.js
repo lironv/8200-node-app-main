@@ -1,4 +1,4 @@
-exports.doubler = (number) => {
+exports.devidednumber = (number) => {
 
     if(number%3==0)
     {
